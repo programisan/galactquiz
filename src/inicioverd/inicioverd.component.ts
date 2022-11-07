@@ -10,8 +10,8 @@ export class InicioverdComponent implements OnInit {
 
   ngOnInit() {}
   cadastrar() {
-    var nome: any = document.getElementById('nome');
-    nome = String(nome.value).length;
+  localStorage.setItem(nome) = document.getElementById('nome');
+   var nome = String(nome.value);
     alert(nome);
   }
 }
