@@ -11,8 +11,7 @@ export class InicioverdComponent implements OnInit {
   ngOnInit() {}
   cadastrar() {
     var nome: any = document.getElementById('nome');
-    console.log(nome.value);
-    var orimen = nome.value;
-    alert(`Olá ${orimen}`);
+    nome = String(nome.value).length;
+    alert(nome);
   }
 }
