@@ -16,7 +16,8 @@ variar: any
     this.variar = Math.floor(Math.random() * 749074);
     this.mudar = Math.floor(Math.random() * 1569);
     this.mudar = this.mudar - this.variar;
-    localStorage.setItem(this.variar, this.mudar)
+    var pedro =localStorage.setItem(this.variar, this.mudar)
+    alert(pedro)
     
 
 
@@ -41,6 +42,8 @@ variar: any
       if (email.value == this.variar) {
         not.innerHTML = 'Eii patrulheiro você acertou o id patrulheiro';
         not.style.color = 'green';
+        location.href = "jogar"
+
         if (senha.value == this.mudar) {
           not.innerHTML =
             'Eii patrulheiro você preencheu as credenciais corretamente';
