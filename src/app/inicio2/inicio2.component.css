@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.modal-dialog {
+  background-color: blue;
+  margin-left: 35%;
+  margin-top: 20%;
+  border-radius: 5%;
+}
+
+.login{
+  margin-left: 90%;
+}
+.modal-footer {
+  text-align: center;
+  margin-right: 20px;
+}
+.modal-body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(139, 139, 139);
+}
+.primary {
+  margin-right: 20px;
+}
+.destaque {
+  color: rgb(255, 255, 255);
+  transform: scale(1.19);
+}
+
+p {
+  font-family: 'Bungee', cursive;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+  cursor: pointer;
+}
+span {
+  margin-left: 90%;
+  transition: 1s;
+}
+span:hover{
+  color: blue;
+}
+.main {
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color: #ffff;
+  transition: 1s;
+}
+a:hover{
+  color: blue;
+}
+
+.texto {
+  margin-top: 250px;
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.a {
+  text-decoration: none;
+  transition: 2s;
+  height: 350px;
+  width: 180%;
+}
+.a:hover {
+  color: rgb(0, 0, 0);
+  background-color: blue;
+}
+h2 {
+  font-family: 'Bungee', cursive;
+  color: rgb(56, 15, 202);
+  transition: 0.5s;
+  opacity: 80%;
+  margin-bottom: 20px;
+  font-size: 80px;
+  width: 100%;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+h2:hover {
+  transform: scale(1.1);
+  color: white;
+  opacity: 100%;
+}
+
+.button {
+  height: 41px;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Bungee', cursive;
+  color: white;
+  border-radius: 10px;
+  width: 40%;
+  background-color: NONE;
+  transition: 2s;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: blue;
+}
+
+.botao {
+  background-color: black;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .texto {
+    margin-left: 13%;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .texto {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  h2 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .texto {
+    margin-top: 250px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: row;
+  }
+}

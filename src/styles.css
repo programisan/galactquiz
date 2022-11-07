@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* Add application styles & imports to this file! */
+* {
+  background-color: black;
+}
+.icon{
+ display: none;
+}

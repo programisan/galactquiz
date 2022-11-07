@@ -1,0 +1,28 @@
+<main>
+  <h2>Vamos entrar?</h2>
+  <form>
+    <input
+      type="text"
+      id="email"
+      placeholder="Digite seu id patrulheiro:"
+      required
+    />
+    <input
+      type="password"
+      id="senha"
+      placeholder="Digite seu código da missão:"
+      required
+    />
+    <a href="verificar" (click)="logar()"
+      ><button class="entrar" type="submit" placeholder="entrar">
+        Acessar o jogo de verdade
+      </button></a
+    >
+
+    <p id="notificar"></p>
+    <p id="cad" (click)="credenciar()">
+      Ainda não gerou suas credenciais? <br />
+      clique aqui
+    </p>
+  </form>
+</main>
