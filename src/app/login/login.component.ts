@@ -9,6 +9,8 @@ export class LoginComponent implements OnInit {
   constructor() {}
 mudar: any
 variar: any
+cd: any
+id : any
 
   ngOnInit() {}
   credenciar(){
@@ -16,9 +18,9 @@ variar: any
     this.variar = Math.floor(Math.random() * 749074);
     this.mudar = Math.floor(Math.random() * 1569);
     this.mudar = this.mudar - this.variar;
-    var pedro =localStorage.setItem(this.variar, this.mudar)
+    var pedro = localStorage.setItem(this.id, this.mudar)
     alert(pedro)
-    
+    var pedro = localStorage.setItem(this.cd, this.variar)
 
 
     alert(`Suas credenciais são: id patrulheiro: ${this.variar} e o coódigo da missão é: ${this.mudar} `)
